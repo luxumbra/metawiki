@@ -1,11 +1,11 @@
 module.exports = {
   title: "MetaGame Wiki",
   tagline: "Build the future you want to live in.",
-  url: "https://wiki.metagame.wtf",
+  url: "https://mgwikitest.luxumbra.dev",
   baseUrl: "/",
   favicon: "img/mg-icon.png",
   organizationName: "MetaFam",
-  projectName: "metagame-wiki",
+  projectName: "metagame-wiki-test",
   customFields: {
     GA_TAG: process.env.GA_TAG,
   },
@@ -31,7 +31,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://wiki.metagame.wtf/admin/#/?",
+          editUrl: "https://mgwikitest.luxumbra.dev/admin/#/?",
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
         },
