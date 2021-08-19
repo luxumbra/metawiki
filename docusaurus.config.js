@@ -1,7 +1,7 @@
 module.exports = {
   title: "MetaGame Wiki",
   tagline: "Build the future you want to live in.",
-  url: "https://mgwikitest.luxumbra.dev",
+  url: "https://metawiki-mg-testing.vercel.app",
   baseUrl: "/",
   favicon: "img/mg-icon.png",
   organizationName: "MetaFam",
@@ -31,7 +31,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://mgwikitest.luxumbra.dev/admin/#/?",
+          editUrl: "https://metawiki-mg-testing.vercel.app/admin/#/?",
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
         },
